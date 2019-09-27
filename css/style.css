@@ -1,0 +1,79 @@
+body {
+  background-color: #e66e05;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+
+}
+.container {
+  background-color: white;
+  margin: 70px;
+  border-radius: 20px;
+}
+
+#description {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+
+h1 {
+  color: black;
+  margin-top: 30px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.row {
+  display:inline-flex;
+  justify-content: space-around;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+.labels {
+  text-align: center;
+
+}
+.right-tab {
+  margin-top: 8%;
+  margin-left: 3%;
+}
+.right-tab1 {
+  margin-top: 13%;
+  margin-left: 5%;
+}
+.right-tab2 {
+  margin-top: 32%;
+  margin-left: 15%;
+}
+.right-tab3 {
+  margin-top:6%;
+  margin-left: 3%;
+}
+
+#submit {
+  font-size: 45px;
+  border-radius:20px;
+  margin-bottom: 10%;
+  margin-top: 20%;
+  font-family: 'Playfair Display SC', serif;
+}
+
+#submit:hover {
+  background: #e66e05;
+}
+
+#name {
+  font-size: 14px;
+}
+
+#email {
+  font-size: 14px;
+}
+
+#age {
+  width: 20%
+}
+
+#dropdown {
+  font-size: 14px;
+}

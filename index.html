@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Survey Form </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Russo+One&display=swap" rel="stylesheet">
+  </head>
+<body>
+<div class="container">
+ <form id="survey-form" action="https://giphy.com/gifs/80s-vintage-excited-1PMVNNKVIL8Ig/fullscreen" target="_blank" >
+   <h1 id="title"> Video Game Survey Form  </h1>
+       <p id="description"> What Kind Of Gamer Are You  </p>
+          <div class="row">
+            <div class ="labels">
+            <label for="name" id="name-label">
+        <h2> Name:</h2>
+            </div>
+            <div class="right-tab1">
+              <input id="name" type="text" name="name" placeholder="Enter your name"  required>
+            </label>
+            </div>
+          </div>
+          <br>
+      <div class="row">
+        <div class="labels">
+            <label for="email" id="email-label">
+              <h2>Email:</h2>
+                </div>
+                <div class="right-tab1">
+
+
+              <input id="email" type="email" name="email" placeholder="Enter your email"  required>
+            </label>
+            </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="labels">
+            <label for="number" id="number-label">
+              <h2>Age:</h2>
+              </div>
+              <div class="right-tab2">
+              <input id ="number" min="14" max="99" type="number" name="age" placeholder="#"   required >
+              </div>
+            </label>
+      </div>
+      <div class="row">
+        <div class="labels">
+    <h2>Favorite Genre of Games: </h2>
+            </div>
+            <div class="right-tab">
+              <select id="dropdown" name="genres">
+              <option value="rpg"> RPG</option>
+              <option value="mmo"> MMO</option>
+              <option value="fps"> FPS </option>
+              <option value="moba"> MOBA </option>
+            </select>
+              </div>
+            </div>
+      <div class="row">
+        <div class="labels">
+      <h2>How often do you play this genre: </h2>
+      </div>
+              <div class="right-tab3">
+              <label for="small">
+              <input type="radio" id="small" name="hours" value="small" > Less than 10 hours
+              </label>
+              <br>
+              <label for="medium">
+              <input type="radio" id="medium"name="hours" value="medium"> Less than 30 hours
+              </label>
+              <label for="large">
+              <input type="radio" id="large" name="hours" value="large">  Over 30 hours
+              </label>
+              </div>
+      </div>
+      <div class="row">
+        <div class="labels">
+      <h2>What systems have you owned: </h2>
+        </div>
+            <div class="right-tab">
+              <label for="playstation">
+              <input type="checkbox" name="console" value="playstation"> PS4
+              </label>
+              <br>
+              <label for="xbox">
+              <input type="checkbox" name="console" value="xbox"> Xbox
+              </label>
+              <br>
+              <label for="switch">
+              <input type="checkbox" name="console" value="switch"> Nintendo Switch
+              </label>
+              <br>
+              <label for="pc">
+              <input type="checkbox" name="console" value="pc"> PC
+              </label>
+              </div>
+      </div>
+      <div class ="row">
+        <div class="labels">
+      <h2>What makes you passionate about videogames: </h2>
+        </div>
+              <div class="right-tab3">
+              <textarea name="message" rows="6" cols="40"></textarea>
+              </div>
+      </div>
+      <div class="row">
+          <input type="submit" id="submit" name="submit" onclick="resetForm(this.form)" >
+      </div>
+ </form>
+ </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="utf-8"></script>
+</body>
+</html>
